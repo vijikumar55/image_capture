@@ -1,0 +1,27 @@
+
+
+<div id="guesscol" >
+  <% count=0 %>
+<% for gfile in @guessfiles  %>
+  <a class="line<%=count%2%>" href="<%=@path + "/" + gfile%>"><%=gfile%></a><br /><br />
+    <% count+=1 %>
+
+<% end %>
+</div>
+
+<div id="interactcol" >
+  <% count=0 %>
+<% for ifile in @interactionsfiles  %>
+  <a class="line<%=count%2%>" href="<%=@path + "/" + ifile%>"><%=ifile%></a><br /><br />
+    <% count+=1 %>
+<% end %>
+
+</div>
+<div id="payoutcol" >
+  <% count=0 %>
+<% for pfile in @payoutfiles  %>
+  <a class="line<%=count%2%>" href="<%=@path + "/" + pfile%>"><%=pfile%></a><br /><br />
+    <% count+=1 %>
+<% end %>
+</div>
+

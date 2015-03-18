@@ -1,0 +1,166 @@
+/* 
+    Document   : final
+    Created on : May 5, 2011, 4:08:25 PM
+    Author     : Dale
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+
+#rolldicediv{
+    width: 910px;
+    height: 110px;
+    z-index: 1;
+    top: 775px;
+    left: 50px;
+    -webkit-user-select: none;
+    position: absolute;
+}
+#dice{
+
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#rollbutton{
+    font-size: 36px;
+    -webkit-user-select: none;
+    font-family: Arial,Helvetica,sans-serif;
+    position: absolute;
+    bottom: 0px;
+    left: 2px;
+}
+
+
+#diceimg0, #diceimg1, #diceimg2{
+    position: absolute;
+    top: 10px;
+    left: 368px;
+}
+
+#diceimg3, #diceimg4, #diceimg5{
+    position: absolute;
+    top: 10px;
+    left: 375px;
+}
+.boxtablecol1, .boxtablecol2,
+.boxtablecol3, .boxtablecol4{
+
+    position: absolute;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+}
+
+.boxtableheader1, .boxtableheader2,
+.boxtableheader3, .boxtableheader4{
+    -webkit-user-select: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    background-color: black;
+
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: white;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-top-color: black;
+    height: 15px;
+    position: absolute;
+    top: 1px;
+    color: white;
+    text-align: center;
+}
+.boxtableheader1, .boxtablecol1 {
+    left: 0px;
+    width: 35px;
+}
+.boxtableheader2, .boxtablecol2{
+    left: 36px;
+    width: 93px;
+}
+.boxtableheader3, .boxtablecol3{
+    left: 130px;
+    width: 80px;
+}
+.boxtableheader4, .boxtablecol4{
+    left: 210px;
+    width: 70px;
+}
+.boxtablerow0, .boxtablerow1, .boxtablerow2,
+.boxtablerow3, .boxtablerow4, .boxtablerow5{
+    -webkit-user-select: none;
+    height: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+.boxtablerow0, #diceimgrow0{
+    top: 17px;
+}
+.boxtablerow1, #diceimgrow1{
+    top: 33px;
+    background-color: silver;
+}
+.boxtablerow2, #diceimgrow2{
+
+    top: 49px;
+}
+.boxtablerow3, #diceimgrow3{
+    top: 65px;
+    background-color: silver;
+}
+.boxtablerow4, #diceimgrow4{
+
+    top: 81px;
+}
+.boxtablerow5, #diceimgrow5{
+    top: 97px;
+    background-color: silver;
+}
+
+.boxtablediv{
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 300px;
+    height: 115px;
+}
+
+#diceimgrow0, #diceimgrow1, #diceimgrow2,
+#diceimgrow3, #diceimgrow4, #diceimgrow5{
+
+    position: absolute;
+    left: 285px;
+}
+
+#boxtablediv0, #boxtablediv1, #boxtablediv2{
+    color: green;
+}
+
+#boxtablediv3, #boxtablediv4, #boxtablediv5{
+    color: blue;
+}

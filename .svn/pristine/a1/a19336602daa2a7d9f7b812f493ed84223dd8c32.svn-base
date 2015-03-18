@@ -1,0 +1,51 @@
+/* 
+    Document   : final
+    Created on : May 5, 2011, 4:08:25 PM
+    Author     : Dale
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+#rolldicediv{
+    width: 710px;
+    height: 110px;
+    z-index: 1;
+    top: 775px;
+    left: 250px;
+    -webkit-user-select: none;
+    position: absolute;
+}
+#dice{
+
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#rollbutton{
+    font-size: 36px;
+    -webkit-user-select: none;
+    font-family: Arial,Helvetica,sans-serif;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+#diceimg0, #diceimg1, #diceimg2{
+    position: absolute;
+    top: 10px;
+    left: 368px;
+}
+
+#diceimg3, #diceimg4, #diceimg5{
+    position: absolute;
+    top: 10px;
+    left: 375px;
+}
+

@@ -1,0 +1,88 @@
+
+
+#enternameouterdiv{
+    position: absolute;
+    width: 900px;
+    height: 400px;
+    top: 200px;
+    left: 50%;
+    margin-left: -420px;
+    background-color: #99ccff;
+    border-right-style: double;
+    border-left-style: double;
+    border-bottom-style: double;
+    border-top-style: double;
+    border-right-width: 8px;
+    border-left-width: 8px;
+    border-bottom-width: 8px;
+    border-top-width: 8px;
+    border-right-color: navy;
+    border-left-color: navy;
+    border-bottom-color: navy;
+    border-top-color: navy;
+}
+
+#enternameinnerdiv{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    top: 140px;
+    left: 150px;
+    border-right-style: outset;
+    border-left-style: inset;
+    border-bottom-style: inset;
+    border-top-style: inset;
+    border-right-width: 4px;
+    border-left-width: 4px;
+    border-bottom-width: 4px;
+    border-top-width: 4px;
+    border-right-color: navy;
+    border-left-color: navy;
+    border-bottom-color: navy;
+    border-top-color: navy;
+}
+
+#enternametext{
+
+    -webkit-user-select: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    text-align: center;
+    width: 700px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    background-color: #99ccff;
+}
+
+#username{
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    position: absolute;
+    top: 40px;
+    left: 22px;
+    width: 550px;
+    border-right-style: ridge;
+    border-left-style: ridge;
+    border-bottom-style: ridge;
+    border-top-style: ridge;
+    border-right-width: 4px;
+    border-left-width: 4px;
+    border-bottom-width: 4px;
+    border-top-width: 4px;
+    border-right-color: #66ccff;
+    border-left-color: #66ccff;
+    border-bottom-color: #66ccff;
+    border-top-color: #66ccff;
+}
+
+#submitbutton{
+
+    position: absolute;
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    bottom: 10px;
+    left: 175px;
+}

@@ -1,0 +1,116 @@
+/* 
+    Document   : login
+    Created on : Jan 31, 2011, 6:51:36 PM
+    Author     : Dale
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+#reloadsession{
+    visibility: hidden;
+}
+#loginimagediv{
+
+    width: 1100px;
+    height: 300px;
+    top: 20%;
+    left: 5%;
+    position: absolute;
+    -webkit-user-select: none;
+}
+
+#loginimage{
+
+    position: relative;
+    top: 12px;
+    left: 25px;
+    -webkit-user-select: none;
+}
+
+#home{
+
+    position: absolute;
+    top: 108px;
+    left: 530px;
+    width: 50px;
+    font-size: 24px;
+    height: 26px;
+    visibility: hidden;
+}
+
+.grouppick{
+
+    position: relative;
+    width: 20px;
+    height: 15px;
+}
+
+#groupbox{
+
+    position: absolute;
+    top: 100px;
+    left: 240px;
+    height: 60px;
+    width: 100px;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+}
+
+#logindatapick{
+
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+}
+
+#password{
+    position: absolute;
+    top: 230px;
+    left: 180px;
+    width: 80px;
+    font-size: 24px;
+    height: 24px;
+}
+
+#submitbutton1, #submitbutton2, #submitbutton{
+    position: absolute;
+    top: 230px;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+}
+#submitbutton1, #submitbutton{
+    left: 290px;
+}
+#submitbutton2{
+    left: 390px;
+}
+
+#logintitle{
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 450px;
+    font-size: 24px;
+}
+
+#covercontrols{
+    position: absolute;
+    top: 215px;
+    left: 50px;
+    width: 500px;
+    height: 60px;
+    background-color: #8A2034;
+}

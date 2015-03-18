@@ -1,0 +1,23 @@
+
+
+<div id="guessheader1">
+  <div id="guessheader1text">
+
+  </div>
+</div>
+
+
+<div id="guessheader2">
+
+
+  <div id="guessheader2text2">
+    <%=@headertext[0]%>
+  </div>
+</div>
+
+<div id="guessheader3">
+
+  <div id="guessheader3text2">
+    <%=@headertext[1]%>
+  </div>
+</div>

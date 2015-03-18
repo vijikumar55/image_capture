@@ -1,0 +1,7 @@
+
+<% for i in 0..5 %>
+<div id="<%="coin#{i.to_s}"%>" class="<%="coin #{"row" + i.to_s}"%>" >&nbsp;</div>
+<div id="<%="msg#{i.to_s}"%>" class="<%="msg #{"row" + i.to_s}"%>" >&nbsp;</div>
+<div id="<%="chal#{i.to_s}"%>" class="<%="chal #{"row" + i.to_s}"%>" >&nbsp;</div>
+<div id="<%="pay#{i.to_s}"%>" class="<%="pay #{"row" + i.to_s}"%>" >&nbsp;</div>
+<% end %>

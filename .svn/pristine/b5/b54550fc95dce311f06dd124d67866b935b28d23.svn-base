@@ -1,0 +1,7 @@
+<div id="<%=slidername%>div" class="guesssliderdiv">
+
+     <input id="<%=slidername%>" class="guessslider" type="range" min="0" max="6" value="0" step="1" onchange="showGuess(this.id, this.value)"/>
+
+     <div id="<%=slidername%>view" class="guesssliderview"></div>
+
+</div>

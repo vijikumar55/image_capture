@@ -1,0 +1,4 @@
+<div id="computerid" ><%=@mycomputerid.to_s + "(" + @myuserid.to_s + ")"%></div>
+
+
+<div id="mygroup" class="invisible" hidden="hidden" ><%=@mygroup%></div>

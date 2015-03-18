@@ -1,0 +1,42 @@
+
+<div id="usertable" >
+
+<div id="utheader1" class="utcolhead1" ></div>
+<div id="utheader2" class="utcolhead2" >Participant</div>
+<div id="utheader3" class="utcolhead3" >Group</div>
+<div id="utheader4" class="utcolhead4" >Computer ID</div>
+<div id="utheader5" class="utcolhead5" >Status</div>
+
+<% for row in 1..40 %>
+    <% for col in 1..5 %>
+        <% cssclass = row.odd?  ? "utodd" : "uteven" %>
+        <% cssclasscol = "utcol" + col.to_s %>
+      <% id = "utr" + row.to_s + "c" +col.to_s %>
+      <div id="<%=id.to_s%>" class="<%=cssclass.to_s + " " + cssclasscol.to_s %>" >
+          <%=" " + row.to_s if col == 2%>
+          <% if col == 1 %>
+          <% imgidred = "imgidred" + row.to_s %>
+          <% imgidgreen = "imgidgreen" + row.to_s %>
+        <img id="<%= imgidred %>" class="connectimg" src="<%=  @redsphere %>" alt="" />
+        <img hidden="hidden" id="<%= imgidgreen %>" class="connectimg" src="<%=  @greensphere %>" alt=""  />
+        <% end %>
+          <% if col == 3 %>
+          <%= row < $gUserGroup2 ? 1 : 2 %>
+        <% end %>
+          <% if col == 4 %>
+        
+        <% end %>
+
+      </div>
+    <% id= "ut" %>
+
+  <% end %>
+  <% end %>
+
+
+
+
+
+
+
+</div>

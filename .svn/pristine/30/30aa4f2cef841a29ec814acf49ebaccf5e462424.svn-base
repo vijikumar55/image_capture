@@ -1,0 +1,14 @@
+<div class="guessnever">
+  Never
+</div>
+<div class="guessalways">
+Always
+</div>
+<div id="<%=slidername%>div" class="guesssliderdiv">
+<div class="geussa1">|</div>
+  <%=range_field_tag(slidername, value = 0, {:class => "guessslider", :in => 0..100, :step => "1", :onchange => "showGuess(this.id, this.value)"})%>
+<div class="geussa2">|</div>
+
+  <div class="geussa3">=</div><div id="<%=slidername%>view" class="guesssliderview"></div><div class="geussa4">% of time</div>
+
+</div>

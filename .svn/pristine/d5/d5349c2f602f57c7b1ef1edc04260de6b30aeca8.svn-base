@@ -1,0 +1,285 @@
+
+
+#resultstablebox{
+    width: 550px;
+    height: 600px;
+    top: 5px;
+    left: 4px;
+    position: absolute;
+}
+
+#resultsheader{
+    top: -1px;
+    height: 200px;
+    left: -1px;
+    width: 564px;
+    background-color: white;
+}
+
+#results{
+    height: 400px;
+}
+#results2{
+    top: 200px;
+}
+
+#resultsouterdiv{
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    border-top-width: 3px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+    position: absolute;
+     top: 0px;
+    left: 150px;
+    width: 815px;
+    height: 358px;
+        px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    -webkit-user-select: none;
+}
+
+
+#resultstableheader1, #resultstableheader2,
+#resultstableheader3, #resultstableheader4{
+    -webkit-user-select: none;
+    position: absolute;
+    height: 50px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: white;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-top-color: white;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#resultstableheader1,
+#resultstableheader2,
+#resultstableheader3,
+#resultstableheader4{
+    top: 0px;
+}
+#resultstableheader1, .coin{
+    left: 0px;
+    width: 120px;
+}
+#resultstableheader2, .msg{
+    left: 121px;
+    width: 280px;
+}
+#resultstableheader3, .chal{
+    left: 402px;
+    width: 190px;
+}
+#resultstableheader4, .pay{
+    left: 593px;
+    width: 220px;
+}
+
+.msg, .coin, .chal, .pay{
+    -webkit-user-select: none;
+    position: absolute;
+    height: 50px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+    text-align: center;
+    color: blue;
+}
+.msg, .coin, .chal, .pay{
+    color: green;
+}
+.row0, .row1, .row2, .row3, .row4, .ro5{
+   position: absolute;
+}
+.row0{
+   top: 51px;    
+}
+.row1{
+    top: 102px;
+    background-color: silver;
+}
+.row2{
+    top: 153px;
+
+}
+.row3{
+    top: 204px;
+    background-color: silver;
+
+}
+.row4{
+    top: 255px;
+}
+.row5{
+    top: 306px;
+    background-color: silver;
+}
+#waitmsgdiv{
+    -webkit-user-select: none;
+    position: absolute;
+    width: 1260px;
+    height: 400px;
+    top: 200px;
+    left: 0px;
+    background-color: #99ccff;
+}
+#waitmsgtext{
+    -webkit-user-select: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#buttonpanel2{
+    position: absolute;
+    width: 1145px;
+    height: 55px;
+    top: 700px;
+    left: 25px;
+    -webkit-user-select: none;
+}
+#senderbuttons{
+    position: absolute;
+    top: 0px;
+}
+#senderbuttonslabel{
+    top: 0px;
+    position: absolute;
+    width: 1145px;
+}
+#buttongroup1{
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+#receiverbuttons{
+    position: absolute;
+    top: 100px;
+}
+#receiverbuttonslabel{
+    position: absolute;
+    width: 1145px;
+}
+#buttongroup2{
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+
+#unkbutton1{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    left: 0px;
+    width: 345px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+#samebutton1{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    left: 360px;
+    width: 295px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+#diffbutton1{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    width: 350px;
+    left: 670px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+#donebutton1{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    width: 100px;
+    left: 1040px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+
+
+#unkbutton2{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    left: 0px;
+    width: 345px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+#samebutton2{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    left: 360px;
+    width: 295px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+#diffbutton2{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    width: 350px;
+    left: 670px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+#donebutton2{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    width: 100px;
+    left: 1040px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+#summarymsgsend{
+    position: absolute;
+    top: 380px;
+    left: 80px;
+    width: 1050px;
+}
+#summarymsgrec{
+    position: absolute;
+    top: 380px;
+    left: 200px;
+    width: 1050px;
+}

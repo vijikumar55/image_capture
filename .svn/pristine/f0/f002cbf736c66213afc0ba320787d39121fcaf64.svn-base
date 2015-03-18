@@ -1,0 +1,39 @@
+/* 
+    Document   : application
+    Created on : Feb 5, 2011, 9:52:57 PM
+    Author     : Dale
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.disbleselect{
+
+}
+body{
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+#computerid{
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    -webkit-user-select: none;
+}

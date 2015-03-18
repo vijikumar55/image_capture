@@ -1,0 +1,51 @@
+/* 
+    Document   : dataaccess
+    Created on : May 16, 2011, 8:48:18 PM
+    Author     : Dale
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+
+}
+
+#guesscol, #interactcol, #payoutcol{
+
+    position: absolute;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    top: 50px;
+}
+
+#guesscol{
+
+    width: 250px;
+    left: 20px;
+}
+#interactcol{
+    width: 300px;
+    left: 270px;
+
+}
+#payoutcol{
+    width: 250px;
+    left: 570px;
+
+}
+.line1{
+
+    background-color: #ffffcc;
+}
+.line0{
+  
+    background-color: white;
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <%= stylesheet_link_tag "application", "login" %>
+  <%= javascript_include_tag :defaults, "login", "autologin" %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<div id="buttongroup1" >
+
+<input id="unkbutton1" type="button" value="Unknown Age Group" />
+
+<input id="samebutton1" type="button" value="Same Age Group" />
+
+<input id="diffbutton1" type="button" value="<%=@diffbuttonvalue%>" />
+
+</div>

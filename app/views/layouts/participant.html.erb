@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Participant</title>
+  <%= stylesheet_link_tag "application", "participant" %>
+  <%= javascript_include_tag :defaults, "updater", "coinflip", "json2", "gametree", "participant", "autoplayparticipant"  %>
+  <%= csrf_meta_tag %>
+</head>
+<body >
+<%= render :partial => "shared/computerid" %>
+
+<%= yield %>
+
+<%= render :partial => "shared/pageupdatetime" %>
+<%= render :partial => "shared/userid" %>
+
+</body>
+</html>

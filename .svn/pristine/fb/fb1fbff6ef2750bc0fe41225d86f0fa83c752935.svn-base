@@ -1,0 +1,35 @@
+<% for row in 0..2 %>
+<div id="boxrow<%=row%>">
+  <div id="boxtextrow<%=row%>">
+    <%=@rowlabel[row]%>
+  </div>
+</div>
+<% end %>
+
+<% for cell in 0..5 %>
+<% message = "False Message" if cell < 3 %>
+<% message = "Sent Message" if cell > 2 %>
+<div id="box<%=cell%>">
+    <img src="images/dice/face<%=cell+1%>.jpg" id="diceimg<%=cell%>" height="50" width="50" draggable="false" />
+    <div id="boxtablediv<%=cell%>" class="boxtablediv" >
+    <div id="boxtableheader1-<%=cell%>" class="boxtableheader1">Coin</div>
+    <div id="boxtableheader2-<%=cell%>" class="boxtableheader2"><%=message%></div>
+    <div id="boxtableheader3-<%=cell%>" class="boxtableheader3">Challenge</div>
+    <div id="boxtableheader4-<%=cell%>" class="boxtableheader4">Your Payoff</div>
+
+<% for i in 0..5 %>
+<div id="<%="boxtable#{cell.to_s + i.to_s + "-1"}"%>" class="<%="boxtable#{"row" + i.to_s} boxtablecol1"%>" >&nbsp;</div>
+<div id="<%="boxtable#{cell.to_s + i.to_s + "-2"}"%>" class="<%="boxtable#{"row" + i.to_s} boxtablecol2"%>" >&nbsp;</div>
+<div id="<%="boxtable#{cell.to_s + i.to_s + "-3"}"%>" class="<%="boxtable#{"row" + i.to_s} boxtablecol3"%>" >&nbsp;</div>
+<div id="<%="boxtable#{cell.to_s + i.to_s + "-4"}"%>" class="<%="boxtable#{"row" + i.to_s} boxtablecol4"%>" >&nbsp;</div>
+    <img src="images/dice/redface<%=i+1%>.jpg" id="diceimgrow<%=i%>" height="13" width="13" draggable="false" />
+<% end %>
+    </div>
+
+</div>
+<% end %>
+
+<% for cell in 0..5 %>
+<div id="highlight<%=cell%>" style="display: none;">
+</div>
+<% end %>

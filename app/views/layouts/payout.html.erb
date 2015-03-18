@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Experiment Completed</title>
+  <%= stylesheet_link_tag "application", "payout", "entername" %>
+  <%= javascript_include_tag :defaults, "updater", "payout", "autoplaypayout" %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<%= render :partial => "shared/computerid" %>
+
+<%= yield %>
+
+
+<%= render :partial => "shared/pageupdatetime" %>
+<%= render :partial => "shared/userid" %>
+
+</body>
+</html>

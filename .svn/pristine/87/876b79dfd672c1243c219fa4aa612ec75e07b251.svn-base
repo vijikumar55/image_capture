@@ -1,0 +1,32 @@
+<div id="receivecontroldiv">
+  <div id="youarereceiver" >
+    You are Receiver
+  </div>
+  <input id="receiverok" type="button" value="OK" />
+  <img src="images/bluecheck.png" id="receivercheck" height="48" width="48" draggable="false" />
+  <div id="sendergroup" >    
+  </div>
+  <input id="sendergroupok" type="button" value="OK" />
+  <img src="images/greencheck.png" id="sendergroupcheck" height="48" width="48" draggable="false" />
+
+
+
+<div id="receivermessagecontroldiv" >
+
+  <div id="receiversendermessagetext" >
+    Sender's Message:
+  </div>
+  <div id="receiversendermessage">
+
+  </div>
+
+  <div id="receiverdecisiontext" >
+    Receiver's Decision:
+  </div>
+  <input id="receiveraccept" type="button" value="Accept" />
+  <input id="receiverchallenge" type="button" value="Challenge" />
+</div>
+
+
+
+</div>

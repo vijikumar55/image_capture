@@ -1,0 +1,22 @@
+<% for row in 0..2 %>
+<div id="boxrow<%=row%>">
+  <div id="boxtextrow<%=row%>">
+    <%=@rowlabel[row]%>
+  </div>
+</div>
+<% end %>
+
+<% for cell in 0..5 %>
+<div id="box<%=cell%>">
+  <div id="boxearnedtext<%=cell%>" class="amountearnedclass">
+&nbsp;Amount Earned:
+    <img src="images/dice/face<%=cell+1%>.jpg" id="diceimg<%=cell%>" height="50" width="50" draggable="false" />
+  </div>
+    <div id="boxearned<%=cell%>" ></div>
+</div>
+<% end %>
+
+<% for cell in 0..5 %>
+<div id="highlight<%=cell%>" style="display: none;">
+</div>
+<% end %>

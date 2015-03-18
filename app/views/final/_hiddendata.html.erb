@@ -1,0 +1,7 @@
+
+<% for i in 0..1 %>
+  <% for j in 0..5 %>
+    <div id="payoutdata<%=i.to_s + "-" + j.to_s%>"  class="invisible" hidden="hidden" ><%=@payoutdata[i][j]%></div>
+  <% end %>
+<% end %>
+

@@ -1,0 +1,41 @@
+/* 
+    Document   : wait
+    Created on : Feb 6, 2011, 3:14:04 PM
+    Author     : Dale
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#waitimagediv{
+
+    position: absolute;
+    width: 1018px;
+    height: 480px;
+    top: 10%;
+    left: 10%;
+    -webkit-user-select: none;
+}
+#waitimage{
+
+    position: relative;
+    top: 0px;
+    left: 0px;
+    -webkit-user-select: none;
+}
+#marquee{
+
+    top: 250px;
+    left: 230px;
+    position: absolute;
+    -webkit-user-select: none;
+    
+}

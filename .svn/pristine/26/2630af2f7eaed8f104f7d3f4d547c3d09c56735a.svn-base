@@ -1,0 +1,24 @@
+
+<%= render :partial => "resultstitle" %>
+
+<%= render :partial => "waitmsg" %>
+
+
+<div id="resultsouterouterdiv" >
+<div id="resultsouterdiv" >
+<%= render :partial => "results2data" %>
+
+</div>
+<div id="summarymsgsend" >
+  You got "4" coins: <span id="summarymsgsend1"></span> times and sent a false message <span id="summarymsgsend2"></span> times<br>
+The receiver challenged “2 to Split” messages: <span id="summarymsgsend3"></span> times<br>
+Receiver’s successful challenges: <span id="summarymsgsend4"></span> times
+</div>
+<div id="summarymsgrec" >
+You got “2 to split” messages: <span id="summarymsgrec1"></span> times<br>
+You challenged “2 to split” messages: <span id="summarymsgrec2"></span> times<br>
+Your challenges were successful: <span id="summarymsgrec3"></span> times
+</div>
+</div>
+<%= render :partial => "buttonpanel2" %>
+

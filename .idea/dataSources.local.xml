@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails ageism: development" uuid="801dcafa-ca64-47c4-9549-9c96fc43820a" />
+    <data-source name="Rails ageism: test" uuid="41d1a143-5f3d-443a-a5ea-c99efd2a0ef3" />
+    <data-source name="Rails ageism: production" uuid="20e1fdc5-eefb-42cb-bac4-09f572a08e4b" />
+  </component>
+</project>

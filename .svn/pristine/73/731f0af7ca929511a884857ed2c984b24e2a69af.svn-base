@@ -1,0 +1,16 @@
+
+
+<div id="resultsheaderleft">
+
+
+  <div id="resultsheaderlefttext">
+    <%=@headertext[0]%>
+  </div>
+</div>
+
+<div id="resultsheaderright">
+
+  <div id="resultsheaderrighttext">
+    <%=@headertext[1]%>
+  </div>
+</div>

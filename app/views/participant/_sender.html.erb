@@ -1,0 +1,31 @@
+<div id="sendercontroldiv">
+  <div id="youaresender" >
+    You are Sender
+  </div>
+  <input id="senderok" type="button" value="OK" />
+  <img src="images/greencheck.png" id="sendercheck" height="48" width="48" draggable="false" />
+  <div id="receivergroup" >   
+  </div>
+  <input id="receivergroupok" type="button" value="OK" />
+  <img src="images/bluecheck.png" id="receivergroupcheck" height="48" width="48" draggable="false" />
+
+
+
+<div id="sendermessagecontroldiv" >
+
+  <div id="coinflipresulttext" >
+    Coin Flip Resulting State:
+  </div>
+  <div id="coinresult">
+  </div>
+
+  <div id="sendtext" >
+    Sender's Message:
+  </div>
+  <input id="sendmessage2split" type="button" value="Two to Split" />
+  <input id="sendmessage4split" type="button" value="Four to Split" />
+</div>
+
+<%= render(:partial => "coinflip")  %>
+
+</div>

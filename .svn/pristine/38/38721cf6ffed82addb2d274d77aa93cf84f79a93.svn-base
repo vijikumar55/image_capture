@@ -1,0 +1,20 @@
+
+#resultsheaderleft, #resultsheaderright{
+    top: -1px;
+    height: 200px;
+}
+
+#resultsheaderlefttext, #resultsheaderrighttext{
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    padding-left: 10px;
+}
+
+#resultsleft,#resultsright{
+    height: 500px;
+    position: absolute;
+}
+#resultsleft, #resultsright{
+    top: 200px;
+}

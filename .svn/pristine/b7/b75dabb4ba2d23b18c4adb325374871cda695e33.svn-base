@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Access</title>
+  <%= stylesheet_link_tag "application", "dataaccess" %>
+  <%= javascript_include_tag :defaults, "dataaccess" %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<%= yield %>
+
+
+</body>
+</html>

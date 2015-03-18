@@ -1,0 +1,22 @@
+
+
+<div id="loginimagediv">
+<img id="loginimage" src="<%=  @loginimagefile %>" alt="" />
+
+<div id="logintitle" >
+  Participants
+</div>
+
+
+<%= form_tag  "login/validatelogin",  :remote => true %>
+<%= render :partial => "logindata_picklist" %>
+<%= render :partial => "logindata_dataentry" %>
+
+<%= render :partial => "loginbuttons" %>
+<div id="covercontrols"></div>
+</div>
+
+<div id="reloadsession" ><%=@reload%></div>
+
+<%= render :partial => "hiddendata" %>
+

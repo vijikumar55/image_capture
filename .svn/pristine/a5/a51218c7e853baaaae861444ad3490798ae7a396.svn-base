@@ -1,0 +1,2 @@
+<%= render :partial => "shared/controllerinfo" %>
+<div id="pageupdatetime" class="invisible" hidden="hidden"><%= @pageupdatetime.nil? ? "5000": @pageupdatetime%></div>

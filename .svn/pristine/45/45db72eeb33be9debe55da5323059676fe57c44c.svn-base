@@ -1,0 +1,10 @@
+
+
+<%= render :partial => "payouttitle" %>
+
+
+<%= render :partial => "summarydata" %>
+
+<%= render :partial => "entername" %>
+
+<%= render :partial => "thankyou" %>

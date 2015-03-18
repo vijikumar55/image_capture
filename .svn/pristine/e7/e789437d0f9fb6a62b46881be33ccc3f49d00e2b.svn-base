@@ -1,0 +1,9 @@
+
+
+<div id="results">
+    <div id="resultstableheader1">Coin</div>
+    <div id="resultstableheader2">False Message</div>
+    <div id="resultstableheader3">Challenge</div>
+    <div id="resultstableheader4">Your Payoff</div>
+    <%= render :partial => "resultstabledata", :locals => {:side => "left"} %>
+</div>

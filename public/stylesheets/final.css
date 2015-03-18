@@ -1,0 +1,239 @@
+/* 
+    Document   : final
+    Created on : May 5, 2011, 4:08:25 PM
+    Author     : Dale
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+}
+
+#finaltitle{
+
+    width: 1030px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    color: navy;
+    font-weight: bolder;
+}
+
+#boxpayoutouterdiv{
+
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 1035px;
+    height: 651px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+    -webkit-user-select: none;
+}
+
+#pickpayoutouterdiv{
+
+    background-color: white;
+}
+
+#nextbuttondiv{
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+    top: 835px;
+    left: 1000px;
+    -webkit-user-select: none;
+    position: absolute;
+}
+#nextbutton{
+    font-size: 36px;
+    -webkit-user-select: none;
+    font-family: Arial,Helvetica,sans-serif;
+    position: absolute;
+    bottom: 0px;
+}
+
+#boxheader1, #boxheader2, #boxheader3{
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+    background-color: #ffffcc;
+}
+
+#boxheader1, #boxrow0, #boxrow1, #boxrow2{
+
+    left: 0px;
+    width: 170px;
+}
+
+#boxheader2, #box0, #box1, #box2,
+#highlight0, #highlight1, #highlight2{
+
+    left: 170px;
+    width: 429px;
+}
+#boxheader3, #box3, #box4, #box5,
+#highlight3, #highlight4, #highlight5{
+
+    left: 600px;
+    width: 435px;
+}
+#boxheader1text{
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#boxheader2text1, #boxheader3text1{
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+#boxheader2text2, #boxheader3text2{
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#box0, #box1, #box2, #box3, #box4, #box5,
+#boxrow0, #boxrow1, #boxrow2,
+#highlight0, #highlight1, #highlight2,
+#highlight3, #highlight4, #highlight5{
+    height: 150px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+    position: absolute;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+}
+#highlight0, #highlight1, #highlight2,
+#highlight3, #highlight4, #highlight5{
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 8px;
+    border-left-width: 8px;
+    border-bottom-width: 8px;
+    border-top-width: 8px;
+    border-right-color: red;
+    border-left-color: red;
+    border-bottom-color: red;
+    border-top-color: red;
+}
+
+
+#boxrow0, #box0, #box3,
+#highlight0, #highlight3{
+    top: 200px;
+}
+#boxrow1, #box1, #box4,
+#highlight1, #highlight4{
+    top: 350px;
+}
+#boxrow2, #box2, #box5,
+#highlight2, #highlight5{
+    top: 500px;
+}
+#boxrow0, #box0, #box3{
+    background-color: #fff7e9;
+}
+#boxrow1, #box1, #box4{
+    background-color: #ffebc7;
+}
+#boxrow2, #box2, #box5{
+    background-color: #ffd894;
+}
+#boxtextrow0, #boxtextrow1, #boxtextrow2{
+    text-align: center;
+    position: absolute;
+    bottom: 7%;
+    left: 0px;
+    width: 100%;
+    font-weight: bold;
+}
+#highlight0, #highlight1, #highlight2{
+    width: 414px;
+    height: 134px;
+}
+#highlight3, #highlight4, #highlight5{
+    width: 420px;
+    height: 134px;
+}
+
+#boxearned0, #boxearned1 , #boxearned2,
+#boxearned3, #boxearned4, #boxearned5{
+
+    position: absolute;
+    top: 70px;
+    left: 170px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+}
+
+#boxearned0, #boxearned1 , #boxearned2{
+    color: green;
+}
+
+#boxearned3, #boxearned4, #boxearned5{
+   color: blue;
+}
+

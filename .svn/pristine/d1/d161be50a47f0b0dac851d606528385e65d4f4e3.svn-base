@@ -1,0 +1,18 @@
+
+
+<div id="enternameouterdiv" >
+    <div id="enternametext">
+      Please enter your FIRST and LAST name to complete experiment and view final payout.
+    </div>
+
+  <div id="enternameinnerdiv" >
+
+  <input id="username" type="text" name="fname" />
+
+  <input id="submitbutton" type="button" value="Submit Name" />
+
+
+  </div>
+
+
+</div>

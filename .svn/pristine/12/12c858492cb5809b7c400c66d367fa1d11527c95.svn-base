@@ -1,0 +1,18 @@
+
+<div id="loginimagediv">
+<img id="loginimage" src="<%=  @loginimagefile %>" alt="" />
+
+<div id="logintitle" >
+  Ageism & Cooperation Control
+</div>
+
+<%= form_tag  "controllogin/validatecontroller",  :remote => true %>
+<%= render :partial => "logindata_picklist" %>
+<%= render :partial => "logindata_dataentry" %>
+
+<%= render :partial => "loginbuttons" %>
+
+</div>
+
+<div id="reloadsession" ><%=@reload%></div>
+

@@ -1,0 +1,21 @@
+
+<%= render :partial => "guesstitle" %>
+
+<%= form_tag  "guess/submitguess",  { :remote => true, :id => "guessform" }%>
+
+<div id="guessouterouterdiv" >
+
+<div id="guessouterdiv" >
+
+<%= render :partial => "guesstableheader" %>
+<%= render :partial => "guessrow#{@roworder[0]}" %>
+<%= render :partial => "guessrow#{@roworder[1]}" %>
+<%= render :partial => "guessrow#{@roworder[2]}" %>
+
+
+</div>
+
+<%= render :partial => "guesssubmit" %>
+
+</div>
+

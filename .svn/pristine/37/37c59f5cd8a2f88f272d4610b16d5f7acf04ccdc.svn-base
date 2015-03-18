@@ -1,0 +1,4 @@
+
+
+<%= select_tag "logindatapick", options_for_select(@logindata) %>
+ 

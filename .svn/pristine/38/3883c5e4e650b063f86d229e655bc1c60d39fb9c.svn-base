@@ -1,0 +1,108 @@
+/* 
+    Document   : payout
+    Created on : May 14, 2011, 12:25:33 PM
+    Author     : Dale
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#payouttitle{
+
+    -webkit-user-select: none;
+    font-size: 36px;
+    font-family: Arial,Helvetica,sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+#summaryouterdiv{
+    -webkit-user-select: none;
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    top: 250px;
+    left: 50%;
+    margin-left: -150px;
+}
+#summarycol1{
+
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+#summarycol2{
+
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    left: 225px;
+}
+
+#summarytotaltext{
+
+    bottom: 0px;
+    position: absolute;
+    background-color: #ffff99;
+    width: 100%;
+}
+#summarytotaldata{
+
+    bottom: 0px;
+    position: absolute;
+    background-color: #ffff99;
+    width: 100%;
+}
+
+#thankyououterdiv{
+    position: absolute;
+    width: 900px;
+    height: 400px;
+    top: 200px;
+    left: 50%;
+    margin-left: -420px;
+    background-color: #99ccff;
+    border-right-style: double;
+    border-left-style: double;
+    border-bottom-style: double;
+    border-top-style: double;
+    border-right-width: 8px;
+    border-left-width: 8px;
+    border-bottom-width: 8px;
+    border-top-width: 8px;
+    border-right-color: navy;
+    border-left-color: navy;
+    border-bottom-color: navy;
+    border-top-color: navy;
+}
+
+#thankyoutext{
+    -webkit-user-select: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    text-align: center;
+    width: 700px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: #99ccff;
+}
+#okbutton{
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+}

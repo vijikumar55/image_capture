@@ -1,0 +1,11 @@
+<% if $gAllowLogins == "Yes" %>
+  <% if @allowed %>
+     leaveok();
+    $(window.location).attr("href", "wait");
+  <% else %>
+    leaveok();
+    window.location = "failedlogin";
+  <% end %>
+<% else %>
+  
+<% end %>

@@ -1,0 +1,267 @@
+/* 
+    Document   : results
+    Created on : Apr 13, 2011, 5:35:01 PM
+    Author     : Dale
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+#resultstitle{
+    font-size: 36px;
+    font-family: Arial,Helvetica,sans-serif;
+    position: absolute;
+    width: 1135px;
+    height: 40px;
+    top: 30px;
+    left: 50px;
+    text-align: center;
+    -webkit-user-select: none;
+}
+#resultsouterouterdiv{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 1048px;
+    height: 770px;
+    -webkit-user-select: none;
+}
+#resultsouterdiv{
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    border-top-width: 3px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+    position: absolute;
+     top: 0px;
+    left: 0px;
+    width: 1130px;
+    height: 702px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    -webkit-user-select: none;
+}
+
+#resultsheaderleft, #resultsheaderright{
+    position: absolute;
+    top: -1px;
+    height: 200px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+    background-color: #ffffcc;
+    -webkit-user-select: none;
+}
+
+
+#resultsheaderleft, #resultsleft{
+    left: -1px;
+    width: 564px;
+}
+#resultsheaderright, #resultsright{
+    left: 565px;
+    width: 564px;
+}
+
+
+#resultsheaderlefttext, #resultsheaderrighttext{
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#resultsleft,#resultsright{
+    height: 500px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+    position: absolute;
+}
+#resultsleft, #resultsright{
+    top: 200px;
+}
+
+
+
+
+
+
+
+#plotareafalsemsg{
+    width: 475px;
+    height: 300px;
+    top: 25px;
+    left: 20px;
+    -webkit-user-select: none;
+}
+#plotareachallenge{
+    width: 475px;
+    height: 300px;
+    top: 25px;
+    left: 20px;
+    -webkit-user-select: none;
+}
+
+#buttonpanel{
+    position: absolute;
+    width: 1145px;
+    height: 55px;
+    top: 820px;
+    left: 45px;
+    -webkit-user-select: none;
+}
+#unkbutton{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    left: 0px;
+    width: 345px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+#samebutton{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    left: 360px;
+    width: 295px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+#diffbutton{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    width: 350px;
+    left: 670px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+#donebutton{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    width: 100px;
+    left: 1040px;
+    position: absolute;
+    -webkit-user-select: none;
+    background-color: silver;
+}
+
+#falsemsgguesstext,#falsemsgguess,#falsemsgactualtext,#falsemsgactual,
+#falsemsgearnedtext,#falsemsgearned,#challengemsgguesstext,
+#challengemsgguess,#challengemsgactualtext,#challengemsgactual,
+#challengemsgearnedtext,#challengemsgearned{
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 36px;
+}
+
+#falsemsgguesstext{
+    position: absolute;
+    top: 340px;
+    left: 80px;
+    color: red;
+}
+#falsemsgguess{
+    position: absolute;
+    top: 340px;
+    left: 400px;
+    color: red;
+}
+#falsemsgactualtext{
+    position: absolute;
+    top: 390px;
+    left: 80px;
+    color: green;
+}
+#falsemsgactual{
+    position: absolute;
+    top: 390px;
+    left: 400px;
+    color: green;
+}
+#falsemsgearnedtext{
+    position: absolute;
+    top: 440px;
+    left: 80px;
+}
+#falsemsgearned{
+    position: absolute;
+    top: 440px;
+    left: 400px;
+}
+
+
+
+
+#challengemsgguesstext{
+    position: absolute;
+    top: 340px;
+    left: 80px;
+    color: red;
+}
+#challengemsgguess{
+    position: absolute;
+    top: 340px;
+    left: 400px;
+    color: red;
+}
+#challengemsgactualtext{
+    position: absolute;
+    top: 390px;
+    left: 80px;
+    color: blue;
+}
+#challengemsgactual{
+    position: absolute;
+    top: 390px;
+    left: 400px;
+    color: blue;
+}
+#challengemsgearnedtext{
+    position: absolute;
+    top: 440px;
+    left: 80px;
+}
+#challengemsgearned{
+    position: absolute;
+    top: 440px;
+    left: 400px;
+}
+

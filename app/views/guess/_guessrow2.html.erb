@@ -1,0 +1,13 @@
+
+<div id="guessr2c1">
+  <div id="guessr2c1text">
+    <%=@rowlabel[@roworder[1]]%>
+  </div>
+</div>
+
+<div id="guessr2c2">
+<%= render :partial => "guessslider", :locals => { :slidername => "#{@colorder[0]}#{@roworder[1]}" } %>
+</div>
+<div id="guessr2c3">
+<%= render :partial => "guessslider", :locals => { :slidername => "#{@colorder[1]}#{@roworder[1]}" } %>
+</div>

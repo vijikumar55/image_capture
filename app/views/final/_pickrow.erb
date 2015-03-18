@@ -1,0 +1,28 @@
+
+<div id="pickpayoutouterdiv" style="display: none;" >
+
+
+
+ <div id="pickrowdiv" class="pickrowdiv" >
+    <div id="pickrowheader1" class="pickrowheader1">Coin</div>
+    <div id="pickrowheader2" class="pickrowheader2">Message</div>
+    <div id="pickrowheader3" class="pickrowheader3">Challenge</div>
+    <div id="pickrowheader4" class="pickrowheader4">Your Payoff</div>
+
+
+<% for i in 0..5 %>
+<div id="<%="pickrow#{i.to_s + "-1"}"%>" class="<%="pickrow#{"row" + i.to_s} pickrowcol1"%>" >&nbsp;</div>
+<div id="<%="pickrow#{i.to_s + "-2"}"%>" class="<%="pickrow#{"row" + i.to_s} pickrowcol2"%>" >&nbsp;</div>
+<div id="<%="pickrow#{i.to_s + "-3"}"%>" class="<%="pickrow#{"row" + i.to_s} pickrowcol3"%>" >&nbsp;</div>
+<div id="<%="pickrow#{i.to_s + "-4"}"%>" class="<%="pickrow#{"row" + i.to_s} pickrowcol4"%>" >&nbsp;</div>
+    <img src="images/dice/redface<%=i+1%>.jpg" id="diceimgpickrow<%=i%>" height="40" width="40" draggable="false" />
+<% end %>
+
+<% for row in 0..5 %>
+<div id="highlightrow<%=row%>" style="display: none;">
+</div>
+<% end %>
+
+
+  </div>
+</div>

@@ -1,0 +1,269 @@
+/* 
+    Document   : control
+    Created on : Feb 7, 2011, 9:16:54 PM
+    Author     : Dale
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#controlheader{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 101px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: maroon;
+    border-left-color: maroon;
+    border-bottom-color: maroon;
+    border-top-color: maroon;
+    -webkit-user-select: none;
+}
+#controlheadertext{
+
+    font-size: 36px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    color: maroon;
+    position: relative;
+    width: 700px;
+    height: 100px;
+    top: -90px;
+    left: 300px;
+    text-align: center;
+    -webkit-user-select: none;
+}
+#controlimage{
+
+    width: 254px;
+    height: 101px;
+    -webkit-user-select: none;
+}
+#usertable{
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+    top: 140px;
+    position: absolute;
+    left: 25px;
+    width: 530px;
+    height: 705px;
+    font-size: 12px;
+    font-family: Arial,Helvetica,sans-serif;
+    -webkit-user-select: none;
+}
+#utheader1, #utheader2, #utheader3, #utheader4, #utheader5{
+    position: relative;
+    height: 25px;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+.utcolhead1,.utcol1{
+    width: 20px;
+}
+.utcolhead2, .utcol2{
+    width: 110px;
+    text-align: center;
+}
+.utcolhead3, .utcol3{
+    width: 50px;
+    text-align: center;
+}
+.utcolhead4, .utcol4{
+    width: 150px;
+    text-align: center;
+}
+.utcolhead5, .utcol5{
+    width: 200px;
+}
+.utcol1{
+    font-weight: bold;
+    text-align: center;
+}
+.utcol1, .utcol2, .utcol3, .utcol4, .utcol5{
+    position: relative;
+    height: 16px;
+    float: left;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+
+}
+.utodd{
+    background-color: #ffffcc;
+}
+.uteven{
+    background-color: #ffff99;
+}
+
+
+#utheader1{
+    font-weight: bold;
+    text-align: center;
+
+}
+#utheader2{
+
+}
+#utheader3{
+
+}
+#utheader4{
+
+}
+
+#startbutton{
+    position: absolute;
+    top: 140px;
+    left: 600px;
+    width: 200px;
+    height: 30px;
+    -webkit-user-select: none;
+}
+
+#resetbutton{
+    position: absolute;
+    top: 190px;
+    left: 600px;
+    width: 200px;
+    height: 30px;
+    -webkit-user-select: none;
+}
+#datafilesbutton{
+    position: absolute;
+    top: 240px;
+    left: 600px;
+    width: 200px;
+    height: 30px;
+    -webkit-user-select: none;
+}
+
+.connectimg{   
+    width: 16px;
+    height: 16px;
+}
+
+#parameterbox{
+
+    position: absolute;
+    top: 140px;
+    left: 900px;
+    width: 315px;
+    height: 250px;
+    border-right-style: dotted;
+    border-left-style: dotted;
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: silver;
+    border-left-color: silver;
+    border-bottom-color: silver;
+    border-top-color: silver;
+}
+#parameterboxtitle{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: #cccccc;
+}
+#parameterdata{
+    width: 100%;
+    height: 262px;
+}
+#allowloginsbox, #amountbox, #autoplaybox, #requiredusersbox,
+#requirepasswordsbox{
+    width: 100%;
+    height: 40px;
+}
+#amountbox{
+}
+#allowloginslabel, #amountlabel, #autoplaylabel, #requireduserslabel,
+#requirepasswordslabel{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    width: 50%;
+}
+#amountlabel{
+}
+#allowloginsvalue, #amountvalue, #autoplayvalue, #requiredusersvalue,
+#requirepasswordsvalue{
+    position: relative;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    width: 20%;
+    left: 153px;
+    text-align: center;
+    top: -22px;
+}
+#amountvalue{
+}
+#allowloginsbutton, #amountbutton, #autoplaybutton, #requiredusersbutton,
+#requirepasswordsbutton{
+    position: relative;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 8px;
+    top: -45px;
+    left: 225px;
+    width: 85px;
+}
+#amountbutton{
+}
+#autoplaybox{
+
+}
+#autoplaylabel{
+
+}
+#autoplayvalue{
+
+}
+#autoplaybutton{
+
+}
+#requiredusersbox{
+}
+#requireduserslabel{
+
+}
+#requiredusersvalue{
+
+}
+#requiredusersbutton{
+
+}

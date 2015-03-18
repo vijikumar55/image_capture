@@ -1,0 +1,9 @@
+
+
+<div id="rolldicediv" >
+
+<img src="images/dice/face5.jpg" id="dice" height="100" width="100" draggable="false" />
+
+  <input id="rollbutton" type="button" value=" Roll " />
+
+</div>

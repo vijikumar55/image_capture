@@ -1,0 +1,23 @@
+
+
+<div id="boxheader1">
+  <div id="boxheader1text">
+
+  </div>
+</div>
+
+
+<div id="boxheader2">
+
+
+  <div id="boxheader2text2">
+    <%=@headertext[0]%>
+  </div>
+</div>
+
+<div id="boxheader3">
+
+  <div id="boxheader3text2">
+    <%=@headertext[1]%>
+  </div>
+</div>
